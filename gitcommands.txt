@@ -3,4 +3,7 @@ git add . ->
 git commit -m "Initial Commit" -> file marked as tracked git file
 git push --set-upstream origin master -> push file to github
 git pull -> retrieve file from github
-.gitignore under file to add exception from 
+add file name to .gitignore to ignore the files when adding to github
+git log -> see past history each commit is a restore point
+git checkout COMMIT ID -> go back to that particular version (commit id can be found in history of repo)
+git switch - -> return to the present after checkout 
