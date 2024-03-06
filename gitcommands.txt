@@ -7,3 +7,8 @@ add file name to .gitignore to ignore the files when adding to github
 git log -> see past history each commit is a restore point
 git checkout COMMIT ID -> go back to that particular version (commit id can be found in history of repo)
 git switch - -> return to the present after checkout 
+git branch -> to see what branch you are on 
+git checkout <master or whatever branch> -> to switch branches
+git merge <branch name> -> be at destination(main) branch when executing to merge into main branch 
+git branch -d <branch name> -> delete branch 
+git push origin --delete hotfix
