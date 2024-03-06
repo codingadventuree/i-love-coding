@@ -1,4 +1,6 @@
 git init
 git add . -> 
 git commit -m "Initial Commit" -> file marked as tracked git file
-git push --set-upstream origin master -> 
+git push --set-upstream origin master -> push file to github
+git pull -> retrieve file from github
+.gitignore under file to add exception from 
